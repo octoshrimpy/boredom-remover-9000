@@ -1,0 +1,153 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  font-size: 1.25em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 3rem;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #3F6B84;
+  color: #FAD3A9;
+}
+
+.main .try {
+  margin: 2rem;
+}
+
+.main .whattodo {
+  font-style: italic;
+  text-align: center;
+}
+
+.main .whattodo a {
+  color: #BB7845;
+}
+
+.main .whattodo a:hover {
+  color: #f7ece0;
+}
+
+.main .whattodo a:after {
+  display: none;
+  content: "(" attr(href) ")";
+  font-size: 0.5em;
+  margin-left: 0.5rem;
+  opacity: 0.7;
+}
+
+.btn {
+  pointer-events: all;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  background: #f7ece0;
+  color: #4C2A1B;
+  position: relative;
+  transition: background ease-in-out 0.2s, top ease-in-out 0.07s;
+  user-select: none;
+  top: 0;
+  border: 3px solid #FAD3A9;
+}
+
+.btn:after {
+  transition: bottom ease-in-out 0.07s;
+  position: absolute;
+  bottom: -0.3em;
+  left: -3px;
+  z-index: -10;
+  display: flex;
+  content: "";
+  background: #FAD3A9;
+  height: 1em;
+  width: calc(100% + 6px);
+  border-radius: 0 0 5px 5px;
+}
+
+.btn:hover {
+  background: white;
+}
+
+.btn:active {
+  top: 0.3em;
+}
+
+.btn:active:after {
+  bottom: 0;
+}
+
+.btn:not(:last-child) {
+  margin-right: 0.5em;
+}
+
+.toggle {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 62px;
+  height: 32px;
+  display: inline-block;
+  position: relative;
+  border-radius: 50px;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #6cb8ff;
+  transition: background-color ease 0.3s;
+}
+
+.toggle:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 2;
+  width: 28px;
+  height: 28px;
+  background: #fff;
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  font: 10px/28px Helvetica;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-indent: -22px;
+  word-spacing: 37px;
+  color: #fff;
+  text-shadow: -1px -1px rgba(0, 0, 0, 0.15);
+  white-space: nowrap;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  transition: all cubic-bezier(0.3, 1.5, 0.7, 1) 0.3s;
+}
+
+.toggle:checked {
+  background-color: #b86cff;
+}
+
+.toggle:checked:before {
+  left: 32px;
+}
+
+.toggles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.toggles .toggle {
+  margin: 1rem;
+}
+
+.hide {
+  display: none;
+}

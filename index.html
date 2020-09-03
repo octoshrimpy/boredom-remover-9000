@@ -1,0 +1,28 @@
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.1/css/bulma.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="toggles">
+            <div>Do</div>
+            <input id="do-watch" type="checkbox" class="toggle" onclick="toggleDo()">
+            <div>Watch</div>
+        </div>
+        <div class="toggles" id="do-toggles">
+            <div>Life</div>
+            <input type="checkbox" class="toggle" id="life-code">
+            <div>Code</div>
+        </div>
+
+        <div class="btn" onclick="getNewThing()">
+            Find Thing
+        </div>
+        
+        <div class="try">Try this:</div>
+        
+        <div id="whattodo" class="whattodo"></div>
+        
+    </div>
+</body>
