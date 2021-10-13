@@ -51,6 +51,8 @@ let code = [
         "text": "Browse through cool code snippets on Codepen"
     }
 ]
+
+// content - do
 let life = [
     "Find 2 things to put in trash bin",
     "Go for a walk around the neighborhood",
@@ -77,7 +79,33 @@ let life = [
     "Use your fingers to paint along with Bob Ross",
     "Doodle an object nearby",
     "Take a power nap",
-    "Write a letter for future self"
+    "Write a letter for future self",
+    "Clean clutter off your desk",
+    "CLose your eyes and listen to the sounds around you for 5 minutes",
+    "Plan a weekend trip to a nearby city",
+    "Write down 10 things (or people) you're grateful for",
+    "Change up the deccor somewhere in your home",
+    "Browse a cookbook for yummy recipes",
+    "Send a handwritten note",
+    "Recreate your favorite restaurant meal",
+    "Recreate your favorite fast food meal",
+    "Visit a nearby animal shelter",
+    "Put together a care package for someone you love",
+    "Start a garden with a random seed you found",
+    "Clean out your medicing cabinet",
+    "Go to the library",
+    "Go through the photos on your phone",
+    "Visit a thrift shop",
+    "Organize the apps on your phone",
+    "Plan your next date",
+    "Visit a nearby museum",
+    "Learn how to roller skate",
+    "Bake a cake",
+    "Go to an estate sale",
+    "Watch the sunset",
+    "Find  nearby farmer's market",
+    "Bake bread"
+
 ]
 
 function getNewThing(){
