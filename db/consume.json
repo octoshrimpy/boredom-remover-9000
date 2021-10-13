@@ -1,0 +1,42 @@
+{
+    "consume": [
+        {
+            "url": "https://www.youtube.com/watch?v=iZWp2VNfxfU&list=PL5vZEY2A9f_jEe0y_6MGmcsaMIa1gO3wU",
+            "text": "Watch an ant colony grow"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Gtz18bDP0_w",
+            "text": "Baking ASMR by SEODAM"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=UjtOGPJ0URM&list=PLFs4vir_WsTzcfD7ZE8uO3yX-GCKUk9xZ",
+            "text": "Learn interesting science bits from Kurstgezagt"
+        },
+        "Sit still with eyes closed and listen to your surroundings for 5 minutes",
+        {
+            "url": "https://www.youtube.com/watch?v=jGwh-vvDwUw&list=PLoZ-LEVLUe6b8NamywcV2pai_pqVGn5zs",
+            "text": "Watch paintings get restored by Baumgartner"
+        },
+        {
+            "url": "https://xkcd.com",
+            "text": "View latest comic from XKCD"
+        },
+        {
+            "url": "https://asoftmurmur.com",
+            "text": "Listen to soft background noises in asoftmurmur"
+        },
+        {
+            "url": "https://www.theonion.com",
+            "text": "Read funny fake articles from The Onion"
+        },
+        {
+            "url": "https://www.supercook.com/#/recipes",
+            "text": "Find recipes from stuff in your fridge with Supercook"
+        },
+        {
+            "url": "https://www.amazon.com/gp/feature.html?ie=UTF8&docId=1001250201",
+            "text": "Read funny Amazon reviews"
+        }
+    ]
+
+}

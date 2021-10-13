@@ -1,0 +1,17 @@
+{
+    "code": [
+        {
+            "url": "https://flukeout.github.io",
+            "text": "Go through the basics of CSS with CssDiner"
+        },
+        {
+            "url": "https://flexboxzombies.com/p/flexbox-zombies",
+            "text": "Learn the basics for css flex with Flexbox Zombies"
+        },
+        {
+            "url": "https://codepen.io/picks/pens",
+            "text": "Browse through cool code snippets on Codepen"
+        }
+    ]
+
+}
